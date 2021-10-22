@@ -18,7 +18,7 @@ vector<int> breakingRecords(vector<int> scores) {
     bool firstNumber = true;
     int leastPoints = INT_MAX;
     int mostPoints = 0;
-    
+
     for (int score : scores) {
         if (firstNumber) {
             leastPoints = score;
