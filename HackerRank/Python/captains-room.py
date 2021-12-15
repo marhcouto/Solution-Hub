@@ -1,4 +1,4 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
+
 _, rooms = input(), list(map(int, input().split()))
 
 d = {}
